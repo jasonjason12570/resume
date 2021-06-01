@@ -50,10 +50,10 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/demo/ML_People_construction_predict_2.PNG" alt="">
+                  <img src="assets/img/demo/ML_medical_prediction.PNG" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/demo/ML_People_construction_predict.PNG" alt="">
+                  <img src="assets/img/demo/ML_medical_prediction_2.PNG" alt="">
                 </div>
                 
 
@@ -66,27 +66,22 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Population age structure forecast by using linear_model 人口年齡結構預測</li>
+                <li><strong>Category</strong>: Mortality’s prediction in ICU with mimic iii</li>
                 <li><strong>Client</strong>: None</li>
-                <li><strong>Skills</strong>: Python, linear_model, pandas, numpy, requests, </li>
-                <li><strong>Project date</strong>: 03 May, 2021</li>
-                <!--<li><strong>GITHUB</strong>: <a href = "https://github.com/jasonjason12570/python-project/blob/main/人口年齡結構預測.ipynb" target="_blank">人口年齡結構預測</a></li>-->
-
+                <li><strong>Skills</strong>: Python, Xgboost, linear_model, RandomForest, pandas, numpy, Sharp </li>
+                <li><strong>Project date</strong>: 28 May, 2021</li>
+                
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>ML of Population age structure forecast by using linear_model</h2>
+              <h2>ML of Mortality’s prediction in micmic iii</h2>
               <p>
-                Given that Taiwan has reached an aging society in the past few years, there must be many changes in the demographic structure. In this project, we hope to use ML to predict and analyze the dependence of the age population to achieve the prediction effect.
-                 In this article, use the'requests' module pair <a href = "https://statis.moi.gov.tw/micst/stmain.jsp?sys=220&ym=8100&ymt=11003&kind=21&type=1&funid=c0110201&cycle=41&outmode= 0&compmode=0&outkind=1&fldlst=1111&cod00=1&rdm=hfzkXWl9" target="_blank">public government webpage</a> to crawl, and use a parser to analyze the table
-                 Then make predictions about it.
-                有鑑於台灣在前幾年已達高齡化社會，在人口結構上肯定有不少變化，在這個專案希望藉由ML來預測並且分析年齡人口的相依性，來達到預測效果。
-                在本篇中使用'requests'模組對<a href = "https://statis.moi.gov.tw/micst/stmain.jsp?sys=220&ym=8100&ymt=11003&kind=21&type=1&funid=c0110201&cycle=41&outmode=0&compmode=0&outkind=1&fldlst=1111&cod00=1&rdm=hfzkXWl9" target="_blank">政府公開網頁</a>進行爬蟲，並且使用解析器分析table
-                再對其進行預測。
+                In medical treatment, precision medicine is extremely needed. It is a good thing to have a tool that can assist doctors in making judgments and analyzing the patient’s condition. In this project, MIMIC III data set is used as the data source to predict COPD patients Whether there is a risk of death in the ICU, I hope to provide physicians with real-time information to assist in judgment.
+                在醫療當中，精準醫療是極度需要的，若有一個工具能夠輔助醫生做判斷與分析病人病情，是一個好事情，在這次的專案中，採用MIMIC III 資料集作為資料來源，預測以COPD病患在ICU中是否有死亡風險，希望藉此提供醫師即時資訊做輔助判斷。
               </p>
               <p> 
-                In this project, we used the data from 1992-2021 march, a total of 273 data. In the analysis heat map, it can be seen that the feature in'young' is extremely sensitive to other fields and is extremely important in the feature.
-                在這次的專案中使用1992 - 2021 march的資料，一共273筆資料。在分析熱力圖中可以看到在'young'的特徵對其他欄位極為敏感，在特徵中極為重要。
+                We analyzed the importance of each feature in the entire Model for COPD patients.Even though our accuracy rate has reached 80%, we still need to adjust the model to meet the usability standard of ML
+                在裡面我們分析出針對COPD病患中，以Sharp進行分析各個特徵在整個Model中所佔的重要度。縱然我們的準確率已達8成，但仍須針對模型進行調整，達到ML的可用性標準
               </p>
             </div>
           </div>
